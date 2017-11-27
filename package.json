@@ -1,0 +1,19 @@
+{
+  "name": "stl_cmd_node",
+  "version": "1.0.0",
+  "description": "Suite of command line tools for manipulating STL files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "author": "John Allwine",
+  "license": "ISC",
+  "bin": {
+    "stl_boolean": "./src/stl_boolean.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@jscad/openjscad": "^1.2.0",
+    "commander": "^2.11.0"
+  }
+}
