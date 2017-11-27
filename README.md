@@ -7,7 +7,7 @@ Testing performance of adjusting which slicing plane to pick while building the 
     cd csgjs_test
     npm install
     cp trees.js node_modules/@jscad/csg/src/trees.js
-    src/stl_boolean -a stl/torus.stl -b stl/sphere.stl -u out.stl
+    src/stl_boolean.js -a stl/torus.stl -b stl/sphere.stl -u out.stl
 
 # Make adjustments
 
