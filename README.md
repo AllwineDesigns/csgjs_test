@@ -3,8 +3,8 @@ Testing performance of adjusting which slicing plane to pick while building the 
 
 # How to test
 
-    git clone <repo>
-    cd <repo>
+    git clone https://github.com/AllwineDesigns/csgjs_test.git
+    cd csgjs_test
     npm install
     cp trees.js node_modules/@jscad/csg/src/trees.js
     src/stl_boolean -a stl/torus.stl -b stl/sphere.stl -u out.stl
